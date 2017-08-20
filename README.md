@@ -1,6 +1,8 @@
 # spire-course-checker
 SPIRE Course Checker for UMass Amherst
 
+To make this work, first go to SPIRE and add the courses you want to be able to track with this to your shopping cart.
+
 ## Requirements:
  * python3
  * [selenium](http://seleniumhq.org/) `>=3.5` (can be installed using `pip`)
