@@ -3,7 +3,7 @@ SPIRE Course Checker for UMass Amherst
 
 ## Requirements:
  * python3
- * [selenium](http://seleniumhq.org/) `>=3.5` (can be installed by pip)
+ * [selenium](http://seleniumhq.org/) `>=3.5` (can be installed using `pip`)
  * [geckodriver](https://github.com/mozilla/geckodriver/releases/latest)
  * [Firefox](https://ftp.mozilla.org/pub/firefox/releases/53.0.2/) `<=53` (Note that Firefox 54 or above might not work due to compatibility issues).
 
