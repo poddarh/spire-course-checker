@@ -1,3 +1,5 @@
+from getpass import getpass
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
@@ -75,7 +77,8 @@ def when_open(class_name, tr_element):
 
 
 if __name__ == '__main__':
-  if len(sys.argv) < 4:
-    print("Usage: python3 {} <username> <password> <courses list...>".format(sys.argv[0]))
+  if len(sys.argv) < 3:
+    print("Usage: python3 {} <username> <courses list...>".format(sys.argv[0]))
   else:
-    start_checking(sys.argv[1], sys.argv[2], sys.argv[3::], when_open, error)
+    password = getpass("SPIRE Password: ")
+    start_checking(sys.argv[1], password, sys.argv[2::], when_open, error)

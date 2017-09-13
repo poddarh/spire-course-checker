@@ -13,13 +13,13 @@ SPIRE Course Checker for UMass Amherst
 To make this work, first go to SPIRE and add the courses you want to be able to track with this to your shopping cart.
 
 ```bash
-$ python3 spire-checker.py <username> <password> <courses list...>
+$ python3 spire-checker.py <username> <courses list...>
 ```
 Courses list is a comma seperated list of classes. It is matched against the `Classes` column in the classes table on the shopping cart page.
 
 #### Example:
 ```bash
-$ python3 spire-checker.py hpoddar password 'COMPSCI 326' '233-01' '35492'
+$ python3 spire-checker.py hpoddar 'COMPSCI 326' '233-01' '35492'
 ```
 
 **Note:** Currently this will only print the class name in the console. This has a function called `when_open` that you can edit to make it do whatever you'd like.
